@@ -12,25 +12,24 @@ const Footer = () => {
               <img src="" alt="logo" />
             </div>
             <div className="footer__block-flex">
-              <ul className="header__ul">
+              <ul className="footer__ul">
                 <h3>Pages</h3>
                 <Link to={"/"}>Home</Link>
                 <Link to={"/category"}>Product</Link>
                 <Link to={"/favorite"}>Favorite</Link>
                 <Link to={"/cart"}>Cart</Link>
               </ul>
-              <div className="header__flex">
-                <ul className="header__ul">
+              <div className="footer__flex">
+                <ul className="footer__ul">
                   <h3>Payment</h3>
                   <p>
-                    All payments on the access.uz website are made through{" "}
-                    <br /> a secure gateway
+                    All payments on the access.uz website are <br /> made through a secure gateway
                   </p>
                 </ul>
-                <ul className="header__ul">
+                <ul className="footer__ul">
                   <h3>Contact us</h3>
                   <p>+998 91 001 06 57</p>
-                  <a href="#">Trmn.store karimberdiyevaziz077@gmail.com</a>
+                  <a className="footer__ul-link" href="#">Trmn.store karimberdiyevaziz077@gmail.com</a>
                   <p>
                     Ташкент, пр. Олой Бозори, 59/7 <br /> Республика Узбекистан
                   </p>
